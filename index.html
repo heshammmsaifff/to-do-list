@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To Do List <img src="images/icon.png" alt="" /></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your text" />
+          <button class="button" onclick="addTask()">
+            <span>Add a task</span>
+          </button>
+        </div>
+        <div class="info">
+          <p class="text">Make sure to finish all your tasks 💪🏻</p>
+        </div>
+
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="about-me">
+        <p>
+          My name is Hesham Saif. I'm a frontend developer in the making with a
+          passion for coding and design.
+        </p>
+        <p>Feel free to connect with me on my socials:</p>
+      </div>
+      <div class="social-icons">
+        <a
+          href="https://github.com/heshammmsaifff"
+          class="fa"
+          title="Github"
+          target="_blank"
+          >&#xf09b;</a
+        >
+        <a
+          href="https://wa.me/+201092141964"
+          class="fa"
+          target="_blank"
+          title="Whatsapp"
+          >&#xf232;</a
+        >
+      </div>
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+      <button class="back-to-top" onclick="scrollToTop()">&#8679;</button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
